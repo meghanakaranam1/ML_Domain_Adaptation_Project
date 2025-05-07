@@ -1,5 +1,5 @@
 # Progressive Domain Adaptation for Object Detection
-This is our final project for the course EN.601.687 (Machine Learning: Coping with Non-Stationary Environments and Errors) based on [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn/blob/master/README.md) and [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN).
+This is our final project for the course EN.601.687 (Machine Learning: Coping with Non-Stationary Environments and Errors).
 
 
 
@@ -107,3 +107,5 @@ Ex: {'jena_000074_000019_leftImg8bit.png': 0.64}
 ![](figure/adapt_results_c2f.png)
 ![](figure/adapt_results_c2bdd.png)
 
+## Acknowledgement
+This code is based on based on [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn/blob/master/README.md) and [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN).
