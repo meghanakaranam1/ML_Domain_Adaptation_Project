@@ -1,20 +1,7 @@
 # Progressive Domain Adaptation for Object Detection
-Implementation of our paper **[Progressive Domain Adaptation for Object Detection](https://arxiv.org/pdf/1910.11319.pdf)**, based on [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn/blob/master/README.md) and [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN).
+This is our final project for the course EN.601.687 (Machine Learning: Coping with Non-Stationary Environments and Errors) based on [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn/blob/master/README.md) and [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN).
 
-## Paper
-**[Progressive Domain Adaptation for Object Detection](https://arxiv.org/pdf/1910.11319.pdf)**
-[Han-Kai Hsu](https://sites.google.com/site/kevinhkhsu/), [Chun-Han Yao](https://www.chhankyao.com/), [Yi-Hsuan Tsai](https://sites.google.com/site/yihsuantsai/home), [Wei-Chih Hung](https://hfslyc.github.io/), [Hung-Yu Tseng](https://sites.google.com/site/hytseng0509/), [Maneesh Singh](https://scholar.google.com/citations?user=hdQhiFgAAAAJ) and [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/index.html)
-IEEE Winter Conference on Applications of Computer Vision (WACV), 2020.
 
-Please cite our paper if you find it useful for your research.
-```
-@inproceedings{hsu2020progressivedet,
-  author = {Han-Kai Hsu and Chun-Han Yao and Yi-Hsuan Tsai and Wei-Chih Hung and Hung-Yu Tseng and Maneesh Singh and Ming-Hsuan Yang},
-  booktitle = {IEEE Winter Conference on Applications of Computer Vision (WACV)},
-  title = {Progressive Domain Adaptation for Object Detection},
-  year = {2020}
-}
-```
 
 ## Dependencies
 This code is tested with **Pytorch 0.4.1** and **CUDA 9.0**
@@ -120,5 +107,3 @@ Ex: {'jena_000074_000019_leftImg8bit.png': 0.64}
 ![](figure/adapt_results_c2f.png)
 ![](figure/adapt_results_c2bdd.png)
 
-## Acknowledgement
-Thanks to the awesome implementations from [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn/blob/master/README.md) and [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN).
