@@ -99,6 +99,9 @@ or </br>
 Save a dictionary of CycleGAN discriminator scores with image name as key and score as value </br>
 Ex: {'jena_000074_000019_leftImg8bit.png': 0.64}
 
+<<<<<<< HEAD
 
 ## Acknowledgement
+=======
+>>>>>>> 0555899 (final version)
 This code is based on based on [pytorch-faster-rcnn](https://github.com/ruotianluo/pytorch-faster-rcnn/blob/master/README.md) and [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN).
