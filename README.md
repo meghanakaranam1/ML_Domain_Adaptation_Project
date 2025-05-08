@@ -29,7 +29,7 @@ sh ./lib/make.sh
 - Locate the data under `data/CityScapes/leftImg8bit/` as `foggytrain` and `foggyval`.
 
 #### BDD100k
-- Download the data from [here](https://bdd-data.berkeley.edu/).
+- Download the data from [here]([https://bdd-data.berkeley.edu/](http://dl.yf.io/bdd-data/v1/videos/)).
 - Extract the files under `data/bdd100k/`
 
 ## Generate synthetic data with CycleGAN
