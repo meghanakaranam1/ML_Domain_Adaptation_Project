@@ -51,7 +51,8 @@ Locate the generated data under `data/CityScapes/leftImg8bit/synthBDDdaytrain` a
 
 #### Train your own CycleGAN:
 train the cycleGAN using this command :
-`python train.py --dataroot ./datasets/Cityscapes_BDD --name cityscapes2bdd_cyclegan --model cycle_gan --crop_size 256 --load_size 286 --batch_size 1`
+
+`python train.py --dataroot ./data/CityScapes/ --name cityscapes2bdd_cyclegan --model cycle_gan --crop_size 256 --load_size 286 --batch_size 1`
 
 ## Test the adaptation model
 Download the following adapted weights to `./trained_weights/adapt_weight/`
