@@ -50,7 +50,8 @@ Locate the generated data under `data/CityScapes/leftImg8bit/synthFoggytrain` wi
 Locate the generated data under `data/CityScapes/leftImg8bit/synthBDDdaytrain` and `data/CityScapes/leftImg8bit/synthBDDdayval` with same naming and folder structure as original Cityscapes data.
 
 #### Train your own CycleGAN:
-Please follow the training instructions on [PyTorch-CycleGAN](https://github.com/aitorzip/PyTorch-CycleGAN).
+train the cycleGAN using this command :
+python train.py --dataroot ./datasets/Cityscapes_BDD --name cityscapes2bdd_cyclegan --model cycle_gan --crop_size 256 --load_size 286 --batch_size 1
 
 ## Test the adaptation model
 Download the following adapted weights to `./trained_weights/adapt_weight/`
